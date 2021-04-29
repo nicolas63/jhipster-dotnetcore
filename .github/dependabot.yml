@@ -1,0 +1,14 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  target-branch: dependencies
+- package-ecosystem: nuget
+  directory: "/generators/server/templates/dotnetcore/src"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  target-branch: dependencies
