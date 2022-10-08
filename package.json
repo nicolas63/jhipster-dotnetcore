@@ -26,7 +26,7 @@
   "dependencies": {
     "chalk": "4.1.2",
     "ejs": "3.1.7",
-    "generator-jhipster": "7.9.3",
+    "generator-jhipster": "github:mshima/generator-jhipster#skip_ci-fix_cypress",
     "glob": "8.0.1",
     "gulp-filter": "6.0.0",
     "insight": "0.11.1",
