@@ -1,4 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <!-- This is an auto-generated file by a GH action! -->
+  <!-- It's a workaround for dependabot to support Central Package Management (CPM) -->
+  <!-- https://github.com/dependabot/dependabot-core/issues/8590 -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
   <ItemGroup>
   </ItemGroup>
+
 </Project>
