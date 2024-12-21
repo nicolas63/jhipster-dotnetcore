@@ -8,6 +8,90 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageVersion Include="AutoMapper" />
+	<PackageVersion Include="Blazored.Modal" />
+	<PackageVersion Include="Blazored.SessionStorage" />
+	<PackageVersion Include="Blazorise.Bootstrap" />
+	<PackageVersion Include="Blazorise.Icons.FontAwesome" />
+	<PackageVersion Include="Microsoft.AspNetCore.Components.Authorization" />
+	<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" />
+	<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" />
+	<PackageVersion Include="Microsoft.Web.LibraryManager.Build" />
+	<PackageVersion Include="System.Net.Http.Json" />
+	<PackageVersion Include="Toolbelt.Blazor.HttpClientInterceptor" />
+
+	<PackageVersion Include="AutoFixture" />
+	<PackageVersion Include="bunit" />
+	<PackageVersion Include="Microsoft.AspNetCore.Components" />
+	<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
+
+	<PackageVersion Include="JHipsterNet.Core" />
+	<PackageVersion Include="JHipsterNet.Web" />
+	<PackageVersion Include="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+	<PackageVersion Include="MediatR" />
+	<PackageVersion Include="MediatR.Extensions.Microsoft.DependencyInjection" />
+	<PackageVersion Include="Microsoft.AspNetCore.SpaServices.Extensions" />
+	<PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+	<PackageVersion Include="Scrutor" />
+	<PackageVersion Include="Serilog.AspNetCore" />
+	<PackageVersion Include="Serilog.Settings.Configuration" />
+	<PackageVersion Include="Serilog.Sinks.Console" />
+	<PackageVersion Include="Serilog.Enrichers.Process" />
+	<PackageVersion Include="Serilog.Enrichers.Thread" />
+	<PackageVersion Include="Serilog.Sinks.SyslogMessages" />
+	<PackageVersion Include="Swashbuckle.AspNetCore" />
+	<PackageVersion Include="LanguageExt.Core" />
+	<PackageVersion Include="System.IdentityModel.Tokens.Jwt" />
+	<PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+	<PackageVersion Include="BCrypt.Net-Next" />
+	<PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" />
+	<PackageVersion Include="Winton.Extensions.Configuration.Consul" />
+	<PackageVersion Include="Consul" />
+	<PackageVersion Include="Ocelot" />
+	<PackageVersion Include="Ocelot.Provider.Consul" />
+
+
+	<PackageVersion Include="Microsoft.AspNetCore.Identity" />
+	<PackageVersion Include="Newtonsoft.Json" />
+	<PackageVersion Include="System.ComponentModel.Annotations" />
+	<PackageVersion Include="System.Text.Json" />
+	<PackageVersion Include="Serilog" />
+
+
+	<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+	<PackageVersion Include="Microsoft.EntityFrameworkCore" />
+	<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" />
+	<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+	<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" />
+	<PackageVersion Include="Microsoft.EntityFrameworkCore" />
+	<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" />
+	<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+	<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+	<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" />
+	<PackageVersion Include="MongoDB.Driver" />
+	<PackageVersion Include="AspNetCore.Identity.MongoDbCore" />
+	<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+	<PackageVersion Include="Pomelo.EntityFrameworkCore.MySql" />
+	<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" />
+	<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+	<PackageVersion Include="Microsoft.EntityFrameworkCore" />
+	<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" />
+	<PackageVersion Include="Oracle.EntityFrameworkCore" />
+	<PackageVersion Include="Oracle.ManagedDataAccess.Core" />
+	<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" />
+    <PackageVersion Include="Microsoft.Data.Sqlite.Core" />
+	<PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" />
+	<PackageVersion Include="coverlet.msbuild" />
+	<PackageVersion Include="FakeItEasy" />
+	<PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" />
+	<PackageVersion Include="Moq" />
+	<PackageVersion Include="xunit" />
+	<PackageVersion Include="xunit.runner.visualstudio" />
+	<PackageVersion Include="xunit.runner.console" />
+	<PackageVersion Include="FluentAssertions" />
+	<PackageVersion Include="FluentAssertions.AspNetCore.Mvc" />
+	<PackageVersion Include="FluentAssertions.Json" />
   </ItemGroup>
 
 </Project>
