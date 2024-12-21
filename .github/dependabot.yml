@@ -1,18 +1,15 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: nuget
     directory: "/"
     schedule:
       interval: "daily"
-      time: "11:00"
-    open-pull-requests-limit: 10
-    target-branch: "main"
-    allow:
-      - dependency-type: "production"
-  - package-ecosystem: "nuget"
-    directory: "/"
-    schedule:
-      interval: "daily"
-      time: "11:00"
-    open-pull-requests-limit: 10
-    target-branch: "main"
+    open-pull-requests-limit: 16
+    groups:
+      # Specify a name for the group, which will be used in pull request titles
+      # and branch names
+      nuget-dependencies:
+        # Define patterns to include dependencies in the group (based on
+        # dependency name)
+        patterns:
+          - "*" # A wildcard that matches all dependencies
