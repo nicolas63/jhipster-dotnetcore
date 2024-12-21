@@ -1,42 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <RootNamespace>Infrastructure</RootNamespace>
-        <OutputType>Library</OutputType>
-    </PropertyGroup>
-
-    <ItemGroup>
-        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" />
-        <PackageReference Include="Serilog" />        
-        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
-        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
-
-        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
-        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
-
-        <PackageReference Include="Microsoft.AspNetCore.Identity" />
-        <PackageReference Include="AspNetCore.Identity.MongoDbCore" />
-        <PackageReference Include="MongoDB.Driver" />
-
-        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
-        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
-
-        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
-        <PackageReference Include="Oracle.EntityFrameworkCore" />
-        <PackageReference Include="Oracle.ManagedDataAccess.Core" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
-
-    </ItemGroup>   
-
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+  </ItemGroup>
 </Project>
