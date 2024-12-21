@@ -1,9 +1,18 @@
 version: 2
 updates:
-  - package-ecosystem: nuget
-    directory: '/generators/server/templates/dotnetcore/src'
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: daily
+      interval: 'daily'
       time: '11:00'
     open-pull-requests-limit: 10
-    target-branch: dependencies   
+    target-branch: 'main'
+    allow:
+      - dependency-type: 'production'
+  - package-ecosystem: 'nuget'
+    directory: '/generators/dotnetcore/templates/dotnetcore/src'
+    schedule:
+      interval: 'daily'
+      time: '11:00'
+    open-pull-requests-limit: 10
+    target-branch: 'main'
