@@ -1,9 +1,5 @@
 <Project>
   <PropertyGroup>
-    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-  </PropertyGroup>
-
-  <PropertyGroup>
     <AspNetCorePackageVersion>7.0.4</AspNetCorePackageVersion>
     <EntityFrameworkPackageVersion>7.0.4</EntityFrameworkPackageVersion>
     <JHipsterNetPackageVersion>1.0.10</JHipsterNetPackageVersion>
