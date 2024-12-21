@@ -4,7 +4,6 @@
         <TargetFramework>net7.0</TargetFramework>
         <RootNamespace>Infrastructure</RootNamespace>
         <OutputType>Library</OutputType>
-        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
     </PropertyGroup>
 
     <ItemGroup>
