@@ -10,8 +10,8 @@ updates:
     allow:
       - dependency-type: "production"
   - package-ecosystem: "nuget"
-    directories:
-      - "/generators/dotnetcore/templates/dotnetcore/src/*"
+    directory:
+      - "/"
     schedule:
       interval: "daily"
       time: "11:00"
