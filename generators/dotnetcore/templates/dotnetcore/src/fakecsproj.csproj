@@ -5,6 +5,7 @@
   <!-- https://github.com/dependabot/dependabot-core/issues/8590 -->
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
 
   <ItemGroup>
